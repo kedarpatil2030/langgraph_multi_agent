@@ -1,3 +1,5 @@
+# This file centralizes the LLM configuration. Every agent will import the same model.
+
 import os
 
 from dotenv import load_dotenv

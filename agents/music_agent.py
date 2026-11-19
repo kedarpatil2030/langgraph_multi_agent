@@ -1,3 +1,12 @@
+# This is the first specialist agent.
+# Its responsibility is exclusively music-related requests.
+# It uses:
+# Music tools.
+# System prompt.
+# LLM.
+# ToolNode.
+# Conditional routing.
+# LangGraph StateGraph.
 
 from langchain_core.messages import SystemMessage
 from langgraph.graph import StateGraph, START, END

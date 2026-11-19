@@ -1,3 +1,5 @@
+# Now we create the functions that agents can call to retrieve information.
+# We will create four music tools and three invoice tools, following the reference notebook.
 
 import json
 

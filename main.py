@@ -1,3 +1,13 @@
+# This is the file you execute to start your application.
+
+# It will:
+# Initialize the database.
+# Build the multi-agent graph.
+# Generate a unique thread ID.
+# Accept a customer question.
+# Execute the graph.
+# Handle human verification interruptions.
+# Print the final response.
 
 from uuid import uuid4
 

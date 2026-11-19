@@ -1,3 +1,11 @@
+# This agent handles customer purchase-related questions.
+# It uses LangChain's prebuilt create_agent() function, just like the notebook.
+
+# It can answer:
+# What is my latest invoice?
+# What is my purchase history?
+# What is the highest-priced item?
+# Which employee handled my invoice?
 
 from langchain.agents import create_agent
 

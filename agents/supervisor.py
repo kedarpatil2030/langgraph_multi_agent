@@ -1,3 +1,14 @@
+# This is the most important component of the multi-agent architecture.
+# The supervisor does not directly retrieve music or invoice data.
+
+# Instead, it delegates tasks to specialist agents.
+# Supervisor responsibilities
+# Understand customer questions.
+# Identify the correct specialist.
+# Invoke the appropriate sub-agent.
+# Invoke multiple agents when required.
+# Combine their responses.
+# Return a final answer
 
 from langchain.agents import create_agent
 from langchain.tools import tool, ToolRuntime

@@ -1,3 +1,14 @@
+# The notebook includes a verification mechanism before the supervisor can access customer invoice information.
+# We will implement it using LangGraph's interrupt() functionality.
+
+# The process:
+# Check whether customer_id already exists.
+# If it exists, continue.
+# Otherwise, ask the customer for their registered phone number.
+# Pause graph execution.
+# Resume when the customer supplies the number.
+# Find the customer in the database.
+# Store the verified customer ID in state.
 
 from langchain_core.messages import AIMessage
 
